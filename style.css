@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.283);
+    margin-bottom: 2%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+
+nav a{
+    margin: 25px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2%;
+    justify-items: center;
+    width: 50%;
+    margin: auto;
+    gap: 60px;
+
+}
+
+.card{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 15px;
+}
+
+
+.card-link{
+    width: 100%;
+    background-color: black;
+    height: 48px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-link a{
+    color: wheat;
+}
